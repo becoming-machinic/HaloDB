@@ -3,6 +3,19 @@
 [![Build Status](https://travis-ci.org/yahoo/HaloDB.svg?branch=master)](https://travis-ci.org/yahoo/HaloDB)
 [![Download](https://api.bintray.com/packages/yahoo/maven/halodb/images/download.svg) ](https://bintray.com/yahoo/maven/halodb/_latestVersion)
 
+HaloDB Revived! This is a fork of the unmaintained https://github.com/yahoo/HaloDB published to Maven Central. I will
+welcome any PRs to improve this project.
+
+Current Release:
+
+```xml
+<dependency>
+  <groupId>com.outr</groupId>
+  <artifactId>halodb-revive</artifactId>
+  <version>0.5.7</version> 
+</dependency>
+```
+
 HaloDB is a fast and simple embedded key-value store written in Java. HaloDB is suitable for IO bound workloads, and is capable of handling high throughput reads and writes at submillisecond latencies. 
 
 HaloDB was written for a high-throughput, low latency distributed key-value database that powers multiple ad platforms at Yahoo, therefore all its design choices and optimizations were
